@@ -1,0 +1,141 @@
+/*     Notre Couleur 57bfb8 */
+
+
+
+/* NavBar */
+
+
+body {
+	background-color: #f2f3f6 !important;
+}
+.navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-weight: bold;
+}
+
+.navbar-brand .im{
+		color: rgba(138, 6, 6, 0.9);
+		font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+color: rgba(138, 6, 6, 0.9);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: rgb(0, 0, 0);
+}
+
+.bg-light {
+	background-color: #fdfdfd !important;
+	margin-bottom: 50px;
+	/*#c6d1dc !important;*/
+}
+/* End NavBar */
+
+
+
+
+
+/* Footer */
+
+.footer{
+	border-top: 1px solid #333;
+	padding: 15px;
+	background-color: #fdfdfd;
+	margin-top: 100px;
+	margin-bottom: 0px;
+
+}
+.footer ul {
+	margin: 0px;
+}
+.footer ul li{
+	display: inline-block;
+	margin-left: 15px;
+
+}
+.footer ul li a{
+	color: rgba(68, 38, 38, 0.9);
+    font-weight: bold;
+}
+.footer ul li a{
+	color: rgba(68, 38, 38, 0.9);
+    font-weight: bold;
+}
+
+.footer .logo {
+	color: rgba(68, 38, 38, 0.9);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 575px) and (min-width: 300px){
+  .footer .logo {
+	margin-left: 27%;
+  }
+    .footer .logo1 {
+	margin-right: 2%;
+  }
+    .footer .logo2 {
+	margin-right: 33%;
+  }
+
+}
+
+/* / Footer */
+
+
+/* Card */ 
+.card{
+	margin-top: 10px;
+}
+...bb {
+	width: 190px;
+	height: 120px;
+	padding: 3px;
+}
+
+
+/* /card */
+/* Modal */
+
+.modal-card .card{
+	margin-left: 35px;
+}
+.modal-card .card a{
+	margin-left: 10px;
+	color: rgba(68, 38, 38, 0.9);
+    font-weight: bold;
+}
+
+.modal-card .card img {
+	height: 286px;
+
+}
+
+.modal-card .card .card-body p{
+	height: 200px;
+
+}
+@media (max-width: 360px){
+.modal-card .card{
+	margin-left: 5px;
+}
+}
+@media (max-width: 360px){
+.modal-card {
+	margin-left: -10px;
+}
+}
+@media (max-width: 320px){
+.modal-card .card{
+	margin-left: 5px;
+}
+}
+@media (max-width: 320px){
+.modal-card {
+	margin-left: -30px;
+}
+}
+
+
+/* END Modal */
